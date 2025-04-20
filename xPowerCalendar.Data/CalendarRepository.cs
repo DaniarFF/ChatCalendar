@@ -16,7 +16,7 @@ public class CalendarRepository
     context.Add(entity);
     await context.SaveChangesAsync();
   }
-  
+
   public IQueryable<CalendarEntity> GetAll()
   {
     var query = context.Calendars.AsQueryable();
