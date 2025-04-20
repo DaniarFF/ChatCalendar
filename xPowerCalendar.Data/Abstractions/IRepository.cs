@@ -1,38 +1,31 @@
 ﻿namespace xPowerCalendar.Data;
 
-public interface IRepository<T, TKey>  where T : class
+public interface IRepository<T> where T : class
 {
   /// <summary>
-  ///  Добавить сущность.
+  ///   Добавить сущность.
   /// </summary>
   /// <param name="entity"></param>
   /// <returns></returns>
-  Task<T> Add(T entity);
-  
-  /// <summary>
-  ///   Получить cущность по идентификатору.
-  /// </summary>
-  /// <param name="Id"></param>
-  /// <returns></returns>
-  Task<List<User>> Get (TKey id);
-  
+  Task Add(T entity);
+
   /// <summary>
   ///   Получить все сущности.
   /// </summary>
   /// <returns></returns>
-  Task<List<T>> GetAll();
-  
+  IQueryable<User> GetAll();
+
   /// <summary>
   ///   Обновить сущность.
   /// </summary>
   /// <param name="entity"></param>
   /// <returns></returns>
-  Task<T> Update(T entity);
-  
+  Task Update(T entity);
+
   /// <summary>
   ///   Удалить сущность.
   /// </summary>
   /// <param name="entity"></param>
   /// <returns></returns>
-  Task<T> Delete(T entity);
+  Task Delete(T entity);
 }

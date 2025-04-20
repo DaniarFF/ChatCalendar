@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPowerCalendar", "xPowerCalendar\xPowerCalendar.csproj", "{628F9918-E76C-4760-A31C-963344A86D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xPowerCalendar.Data", "xPowerCalendar.Data\xPowerCalendar.Data.csproj", "{98F4A801-C153-48EF-B655-62BF9EDDFAC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{628F9918-E76C-4760-A31C-963344A86D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628F9918-E76C-4760-A31C-963344A86D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628F9918-E76C-4760-A31C-963344A86D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628F9918-E76C-4760-A31C-963344A86D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F4A801-C153-48EF-B655-62BF9EDDFAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F4A801-C153-48EF-B655-62BF9EDDFAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F4A801-C153-48EF-B655-62BF9EDDFAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F4A801-C153-48EF-B655-62BF9EDDFAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
